@@ -1,6 +1,6 @@
-name: 'Just Create A Release'
+name: 'Easy Github Release'
 description: 'Creates releases on Github.'
-author: 'Thomas Eizinger'
+author: 'Misha Behersky'
 branding:
   icon: star
   color: white
@@ -36,5 +36,5 @@ outputs:
   upload_url:
     description: 'The URL for uploading assets to the created release.'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
